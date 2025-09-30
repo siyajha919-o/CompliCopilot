@@ -1,8 +1,12 @@
 # 🚀 CompliCopilot — Intelligent Expense Management System
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.112.1-009639.svg?style=flat&logo=FastAPI&logoColor=w## 👥 Team Strikers
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.112.1-009639.svg?style=flat&logo=FastAPI&logoColor=w## 👥 Team Str## 👨‍💻 Developer
 
-We are **Team Strikers**, a group of passionate developers who have successfully built and deployed this innovative expense management solution. Meet our team:
+**CompliCopilot** is developed and maintained by:
+
+- **siyajha919-o** 🚀  
+  *Full-Stack Developer & Project Creator*  
+  Complete system architecture, OCR implementation, backend development, frontend design, Firebase integration, and project managementeam Strikers**, a group of passionate developers who have successfully built and deployed this innovative expense management solution. Meet our team:
 
 - **Abhijeet Jha** 🚀  
   *AI & Machine Learning Lead | Lead Developer*  
@@ -283,10 +287,6 @@ python backend/test_ocr.py --dir backend/uploads/test
 - **Team Collaboration**: Multi-user business accounts
 
 ---
-
-## 🏆 Acknowledgments
-
-Special recognition to **Abhijeet Jha** for his exceptional contributions to the OCR implementation, backend architecture, and Firebase integration that made this project a success.
 
 ---
 
