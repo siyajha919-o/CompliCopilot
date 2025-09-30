@@ -1,6 +1,25 @@
-# 🚀 CompliCopilot — Intelligent Expense Management
+# 🚀 CompliCopilot — Intelligent Expense Management System
 
-Welcome to **CompliCopilot**, a fully functional Progressive Web App (PWA) that revolutionizes how small businesses manage their expenses. By leveraging **Tesseract OCR** and **AI-powered data extraction**, CompliCopilot automates receipt capture, validation, and categorization with exceptional accuracy.
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.112.1-009639.svg?style=flat&logo=FastAPI&logoColor=w## 👥 Team Strikers
+
+We are **Team Strikers**, a group of passionate developers who have successfully built and deployed this innovative expense management solution. Meet our team:
+
+- **Abhijeet Jha** 🚀  
+  *AI & Machine Learning Lead | Lead Developer*  
+  OCR Implementation, Backend Architecture, Firebase Integration, Core System Development
+
+- **Siya Pankaj** 💻  
+  *Backend Lead*  
+  API Development, Database Design, Data Analytics Integration
+
+- **Ritika Sharma** 🎨  
+  *Frontend Lead*  
+  User Interface, React Components, Authentication Flowapi.tiangolo.com)
+[![Python](https://img.shields.io/badge/Python-3.13+-3776ab.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
+[![Tesseract](https://img.shields.io/badge/Tesseract-OCR-brightgreen.svg?style=flat)](https://github.com/tesseract-ocr/tesseract)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com)
+
+**CompliCopilot** is a fully functional Progressive Web Application (PWA) that revolutionizes expense management for small businesses through **AI-powered OCR** and **intelligent data extraction**.
 
 ## ✨ **Current Status: FULLY OPERATIONAL** ✨
 
@@ -91,7 +110,74 @@ The global market for expense management software is projected to reach **$10 bi
 
 ---
 
-## 👥 Team Strikers
+## � **Quick Start Guide**
+
+### **Method 1: Docker Compose (Recommended)**
+```bash
+# Clone the repository
+git clone https://github.com/siyajha919-o/CompliCopilot.git
+cd CompliCopilot
+
+# Start all services
+cd docker
+docker-compose up --build
+```
+Access: Frontend at `http://127.0.0.1:3000`, Backend at `http://127.0.0.1:8000`
+
+### **Method 2: Manual Setup**
+
+#### **Backend Setup**
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+# Start OCR-enabled version
+python -m uvicorn main_ocr:app --host 127.0.0.1 --port 8000 --reload
+```
+
+#### **Frontend Setup**
+```bash
+cd frontend
+npm install
+npm start
+```
+
+### **Method 3: Quick Testing**
+```bash
+cd backend
+python -m uvicorn main_simple:app --host 127.0.0.1 --port 8000 --reload
+```
+
+### **🔧 Available Deployment Options**
+
+| File | Purpose | Features | Database |
+|------|---------|----------|----------|
+| `main_ocr.py` | **Full OCR System** | Complete OCR + Parsing | None |
+| `main_simple.py` | **Basic API** | Health checks only | None | 
+| `main_full.py` | **SQLite Version** | All features + Database | SQLite |
+| `main.py` | **Production** | Complete system | PostgreSQL |
+
+### **📊 API Endpoints**
+- `GET /` - Service status and information
+- `GET /api/v1/health` - Health check
+- `GET /docs` - Interactive API documentation  
+- `POST /upload` - Receipt OCR processing *(OCR versions)*
+
+### **🧪 Testing the Application**
+
+1. **Upload Receipt**: Visit `http://127.0.0.1:3000/upload.html`
+2. **API Testing**: Use `http://127.0.0.1:8000/docs` for interactive testing
+3. **Health Check**: `curl http://127.0.0.1:8000/api/v1/health`
+
+---
+
+## 🚀 Quick Start
+
+---
+
+## �👥 Team Strikers
 
 We are **Team Strikers**, a group of passionate developers who have successfully built and deployed this innovative expense management solution. Meet our team:
 
@@ -210,4 +296,4 @@ MIT License - Feel free to use this project for educational and commercial purpo
 
 ---
 
-**Made with ❤️ by Team Strikers** | *Transforming expense management, one receipt at a time*
+**CompliCopilot** | *Transforming expense management, one receipt at a time*
