@@ -1,24 +1,6 @@
 # 🚀 CompliCopilot — Intelligent Expense Management System
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.112.1-009639.svg?style=flat&logo=FastAPI&logoColor=w## 👥 Team Str## 👨‍💻 Developer
-
-**CompliCopilot** is developed and maintained by:
-
-- **siyajha919-o** 🚀  
-  *Full-Stack Developer & Project Creator*  
-  Complete system architecture, OCR implementation, backend development, frontend design, Firebase integration, and project managementeam Strikers**, a group of passionate developers who have successfully built and deployed this innovative expense management solution. Meet our team:
-
-- **Abhijeet Jha** 🚀  
-  *AI & Machine Learning Lead | Lead Developer*  
-  OCR Implementation, Backend Architecture, Firebase Integration, Core System Development
-
-- **Siya Pankaj** 💻  
-  *Backend Lead*  
-  API Development, Database Design, Data Analytics Integration
-
-- **Ritika Sharma** 🎨  
-  *Frontend Lead*  
-  User Interface, React Components, Authentication Flowapi.tiangolo.com)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.112.1-009639.svg?style=flat&logo=FastAPI&logoColor=white)](https://fastapi.tiangolo.com)
 [![Python](https://img.shields.io/badge/Python-3.13+-3776ab.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Tesseract](https://img.shields.io/badge/Tesseract-OCR-brightgreen.svg?style=flat)](https://github.com/tesseract-ocr/tesseract)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg?style=flat&logo=docker&logoColor=white)](https://www.docker.com)
@@ -114,7 +96,7 @@ The global market for expense management software is projected to reach **$10 bi
 
 ---
 
-## � **Quick Start Guide**
+## 🚀 Quick Start Guide
 
 ### **Method 1: Docker Compose (Recommended)**
 ```bash
@@ -177,91 +159,13 @@ python -m uvicorn main_simple:app --host 127.0.0.1 --port 8000 --reload
 
 ---
 
-## 🚀 Quick Start
+## 👨‍💻 Developer
 
----
+**CompliCopilot** is developed and maintained by:
 
-## �👥 Team Strikers
-
-We are **Team Strikers**, a group of passionate developers who have successfully built and deployed this innovative expense management solution. Meet our team:
-
-- **Vijay Laxmi** 🏆  
-  *Team Lead | Project Manager*  
-  Frontend Architecture, Project Coordination, UI/UX Design
-
-- **Abhijeet Jha** 🚀  
-  *AI & Machine Learning Lead | Lead Developer*  
-  OCR Implementation, Backend Architecture, Firebase Integration, Core System Development
-
-- **Siya Pankaj** 💻  
-  *Backend Lead*  
-  API Development, Database Design, Data Analytics Integration
-
-- **Ritika Sharma** 🎨  
-  *Frontend Lead*  
-  User Interface, React Components, Authentication Flow
-
----
-
-## 🚀 Quick Start
-
-### **Production Deployment**
-```bash
-# Clone the repository
-git clone <repository-url>
-cd CompliCopilot-Web
-
-# Build and run with Docker
-docker compose -f docker/docker-compose.yml up --build
-
-# Access the application
-# Frontend: http://localhost:3000
-# Backend API: http://localhost:8000
-# API Documentation: http://localhost:8000/docs
-```
-
-### **Development Setup**
-```bash
-# Backend setup
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
-
-# Frontend (serve static files)
-cd frontend
-npx http-server -p 3000 public -c-1
-```
-
-### **Testing OCR Functionality**
-```bash
-# Run OCR smoke tests
-docker exec -it docker-backend-1 python test_ocr_simple.py
-
-# Test with sample receipts
-python backend/test_ocr.py --dir backend/uploads/test
-```
-
----
-
-## � Technical Achievements
-
-### **OCR Performance**
-- **95%+ Accuracy** in vendor name extraction
-- **Real-time Processing** with sub-second response times
-- **Multi-format Support** for various receipt layouts
-- **Intelligent Preprocessing** for image quality enhancement
-
-### **System Reliability**
-- **Production-ready** Docker containerization
-- **Scalable Architecture** with modular services
-- **Error Handling** with comprehensive logging
-- **Development/Production** environment flexibility
-
-### **Security & Compliance**
-- **Firebase Authentication** integration
-- **Secure API Endpoints** with token validation
-- **Data Privacy** with encrypted storage
-- **GDPR Compliance** considerations
+- **siyajha919-o** 🚀  
+  *Full-Stack Developer & Project Creator*  
+  Complete system architecture, OCR implementation, backend development, frontend design, Firebase integration, and project management
 
 ---
 
@@ -285,8 +189,6 @@ python backend/test_ocr.py --dir backend/uploads/test
 - **Accounting Integration**: Direct QuickBooks/Xero sync
 - **Advanced Analytics**: Spending patterns and insights
 - **Team Collaboration**: Multi-user business accounts
-
----
 
 ---
 
